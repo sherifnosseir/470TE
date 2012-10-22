@@ -26,7 +26,8 @@
 				<div class="nav-collapse">
 					<ul class="nav">
 						<li class=""><a href="?r=site"><i class="icon-home"></i> Home</a></li>
-						<li class=""><a href="#"><i class="icon-signal"></i> Stats</a></li>
+						<li class=""><a href="?r=statistics/getAllMentions"><i class="icon-heart"></i> Mentions</a></li>
+						<li class=""><a href="?r=statistics"><i class="icon-signal"></i> Stats</a></li>
 					</ul>
 					
 					<ul class="nav pull-right">  

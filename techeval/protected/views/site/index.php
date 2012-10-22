@@ -6,8 +6,8 @@ $this->pageTitle=Yii::app()->name;
 
 <div class="row well">
 	<div class="span4">
-		<li><a href="?r=main">Home Page</a></li>
-		<li><a href="?r=stats">Statistics Page</a></li>
+		<li><a href="?r=statistics/getAllMentions">Mentions Page</a></li>
+		<li><a href="?r=statistics">Statistics Page</a></li>
 	</div>
 	
 	<div class="span6">
