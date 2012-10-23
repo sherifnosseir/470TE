@@ -7,17 +7,20 @@
 <?php
 foreach ($tweet as $row)
 {?>
-	<div class="well">
+	<div class="well well-small">
+		<p>
 			<?php if($row['to_user_id'] != 0)
 			{?>
-				<p><span class="label label-info">Tweet</span> <span class="help-inline pull-right">Created on: <?php echo substr($row['created_at'], 0, -6); ?></span></p>
+				<p><span class="label label-info">Tweet</span> 
 			<?php 
 			}
 			else
 			{?>
-				<p><span class="label">Retweet</span> <span class="help-inline pull-right">Created on: <?php echo substr($row['created_at'], 0, -6); ?></span></p>
+				<span class="label">Retweet</span> 
 			<?php	
 			} ?>
+			 <span class="help-inline pull-right">Created on: <?php echo substr($row['created_at'], 0, -6); ?> GMT</span>
+		</p>
 			<?php echo $row['tweet']; ?>
 	</div>
 	
