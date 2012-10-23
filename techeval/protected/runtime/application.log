@@ -1782,3 +1782,216 @@ REQUEST_URI=/Tech-Eval/techeval/?r=statistics/getAllMentions
 in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/views/statistics/mentionView.php (2)
 in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/StatisticsController.php (28)
 in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php (13)
+2012/10/23 04:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('about')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/
+---
+2012/10/23 04:41:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(271): CController->missingAction('about')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:41:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(271): CController->missingAction('about')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:41:35 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:05 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:06 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:06 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:07 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:07 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:07 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:08 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:12 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about.php".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about.php', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about.php')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:42:27 [error] [exception.CException] exception 'CException' with message 'MainController cannot find the requested view "pages/about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(783): CController->renderPartial('pages/about', NULL, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/protected/controllers/MainController.php(12): CController->render('pages/about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/actions/CInlineAction.php(50): MainController->actionAbout()
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#7 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#8 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:43:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(271): CController->missingAction('about')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('main/about')
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=main/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---
+2012/10/23 04:43:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "about".' in /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CController.php(271): CController->missingAction('about')
+#1 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(283): CController->run('about')
+#2 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/about')
+#3 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/Tech-Eval/techeval/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Tech-Eval/techeval/?r=site/about
+HTTP_REFERER=http://localhost/Tech-Eval/techeval/?r=site
+---

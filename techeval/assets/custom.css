@@ -1,0 +1,10 @@
+.pull-center
+{
+	text-align:center !important;
+}
+
+.about li
+{
+	list-style-type:none;
+	display:inline;
+}
