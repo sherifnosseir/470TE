@@ -29,17 +29,6 @@
 						<li class=""><a href="?r=statistics/getAllMentions"><i class="icon-heart"></i> Mentions</a></li>
 						<li class=""><a href="?r=statistics"><i class="icon-signal"></i> Stats</a></li>
 					</ul>
-					
-					<ul class="nav pull-right">  
-						<li class="">
-							<?php $this->widget('zii.widgets.CMenu',array(
-								'items'=>array(
-									array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-									array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-								),
-							)); ?>
-						</li>
-					</ul>  
 				</div><!--/.nav-collapse -->
 			</div>
 		</div>

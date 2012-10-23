@@ -30,8 +30,14 @@ $this->pageTitle=Yii::app()->name;
 	</div>
 	
 	<div class="span9 well">
-		<h2 class="helpblock">Group 16 - Stars</h2>
-		<p>Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</p>
+		<h2 class="help-block">Group 16 - Stars <i class="icon-star"></i></h2>
+		<p>This is group g<i class="<i class=""></i>"></i> Yii Tech Evaluation. This evaluation
+			reads tweets about <span class="label label-important">@apike</span> and fetches them
+			By navigating to Mentions, you can find out when and where @apike is mentioned. By 
+			navigating to Stats, you can see how many times each user has tweeted about @apike 
+			you also get a nice <em>love meter</em> that shows the relative percentage according 
+			to the highest number of tweets by one person
+		</p>
 	</div>
 </div>
 </div>
