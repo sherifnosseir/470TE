@@ -4,6 +4,7 @@
 	$(document).ready(function() 
 	    { 
 	        $("table#stats").tablesorter(); 
+			$("table#stats thead tr th").css("background","#efefef");
 	    } 
 	);
 </script>

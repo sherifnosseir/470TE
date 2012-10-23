@@ -4,13 +4,28 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
+<script>
+	$(document).ready(function()
+	{
+		$(".nav-item").hide();
+		$(".navigation").hover(function()
+		{
+			$(".nav-item").fadeIn("slow");
+		},
+		function()
+		{
+			$(".nav-item").fadeOut("slow");
+		});
+	});
+</script>
+
 <div class="container-fluid">
 <div class="row-fluid">
-	<div class="span3 well">
+	<div class="span3 well navigation">
 		<ul class="nav nav-list">
-		  <li class="nav-header">Navigation</li>
-		  <li><a href="?r=statistics/getAllMentions">Mentions Page</a></li>
-		  <li><a href="?r=statistics">Statistics Page</a></li>
+		  <li class="nav-header">Navigation &#9660</li>
+		  <li><a href="?r=statistics/getAllMentions" class="nav-item">Mentions Page</a></li>
+		  <li><a href="?r=statistics" class="nav-item">Statistics Page</a></li>
 		</ul>
 	</div>
 	
