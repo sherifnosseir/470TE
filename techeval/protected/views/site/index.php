@@ -30,8 +30,8 @@ $this->pageTitle=Yii::app()->name;
 	</div>
 	
 	<div class="span9 well">
-		<h2 class="help-block"><i class="icon-star"></i>Group 16 - Stars <i class="icon-star"></i></h2>
-		<p>This is group g<i class="icon-star"></i> Yii Tech Evaluation. This evaluation
+		<h2 class="help-block"><i class="icon-star"></i> Group 16 - Stars <i class="icon-star"></i></h2>
+		<p>This is group 16's Tech Evaluation of <a href="http://www.yiiframework.com">Yii Framework</a>. This evaluation
 			reads tweets about <span class="label label-important">@apike</span> and fetches them
 			By navigating to Mentions, you can find out when and where @apike is mentioned. By 
 			navigating to Stats, you can see how many times each user has tweeted about @apike 
